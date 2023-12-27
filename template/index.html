@@ -1,96 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <div class="grid-container">
-<head>
+<div class="grid-container">
+
+  <head>
     <link rel="stylesheet" href="style.css">
-  <title>Violet Cheetah</title>
-</head>
-<body>
-          <header class="header">
-            <div class="brand">
-              <button onclick="openMenu()">&#9776;</button>
-              <a href="index.html">Violet Cheetah</a>
-            </div>       
+    <title>Violet Cheetah</title>
+  </head>
 
-        <div class="header-links">
-          <a href="cart.html">Cart</a>
-          <a href="signin.html">Sign In</a>
+  <body>
+    <header class="header">
+      <div class="brand">
+        <button onclick="openMenu()">&#9776;</button>
+        <a href="index.html">Violet Cheetah</a>
+      </div>
+
+      <div class="header-links">
+        <a href="cart.html">Cart</a>
+        <a href="signin.html">Sign In</a>
+      </div>
+
+
+    </header>
+
+    <div>
+      <aside class="sidebar">
+        <h3>Shopping Categories</h3>
+        <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+        <ul>
+          <li>
+            <a href="index.html">Pants</a>
+          </li>
+          <li>
+            <a href="index.html">Shirts</a>
+          </li>
+        </ul>
+      </aside>
+
+
+
+
+      <main>
+        <div class="content">
+          <ul class="products">
+            <li>
+              <div class="product">
+                <img class="product-image" src="images/d1.jpg" alt="product" />
+                <div class="product-name">
+                  <a href="product.html">Slim Shirt</a>
+                </div>
+                <div class="product-brand">Nike</div>
+                <div class="product-price">$60</div>
+                <div class="product-rating">4.5 Stars (10 Reviews)</div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="product">
+                <img class="product-image" src="images/d1.jpg" alt="product" />
+                <div class="product-name">
+                  <a href="product.html">Slim Shirt</a>
+                </div>
+                <div class="product-brand">Nike</div>
+                <div class="product-price">$60</div>
+                <div class="product-rating">4.5 Stars (10 Reviews)</div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="product">
+                <img class="product-image" src="images/d1.jpg" alt="product" />
+                <div class="product-name">
+                  <a href="product.html">Slim Shirt</a>
+                </div>
+                <div class="product-brand">Nike</div>
+                <div class="product-price">$60</div>
+                <div class="product-rating">4.5 Stars (10 Reviews)</div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="product">
+                <img class="product-image" src="images/d1.jpg" alt="product" />
+                <div class="product-name">
+                  <a href="product.html">Slim Shirt</a>
+                </div>
+                <div class="product-brand">Nike</div>
+                <div class="product-price">$60</div>
+                <div class="product-rating">4.5 Stars (10 Reviews)</div>
+              </div>
+            </li>
+          </ul>
         </div>
+      </main>
+    </div>
 
-      
-  </header>
-
-  <div>
-  <aside class="sidebar">
-    <h3>Shopping Categories</h3>
-    <button class="sidebar-close-button" onclick="closeMenu()">x</button>
-    <ul>
-      <li>
-        <a href="index.html">Pants</a>
-      </li>
-      <li>
-        <a href="index.html">Shirts</a>
-      </li>
-    </ul>
-  </aside>
-  
-
-
-
-  <main>
-    <div class="content">
-      <ul class="products">
-      <li> <div class="product">
-        <img class="product-image" src="images/d1.jpg" alt="product" />
-        <div class="product-name">
-            <a href="product.html">Slim Shirt</a>
-        </div>
-        <div class="product-brand">Nike</div>
-        <div class="product-price">$60</div>
-        <div class="product-rating">4.5 Stars (10 Reviews)</div>
-    </div></li>
-
-
-      <li> <div class="product">
-        <img class="product-image" src="images/d1.jpg" alt="product" />
-        <div class="product-name">
-            <a href="product.html">Slim Shirt</a>
-        </div>
-        <div class="product-brand">Nike</div>
-        <div class="product-price">$60</div>
-        <div class="product-rating">4.5 Stars (10 Reviews)</div>
-    </div></li>
-
-
-      <li> <div class="product">
-        <img class="product-image" src="images/d1.jpg" alt="product" />
-        <div class="product-name">
-            <a href="product.html">Slim Shirt</a>
-        </div>
-        <div class="product-brand">Nike</div>
-        <div class="product-price">$60</div>
-        <div class="product-rating">4.5 Stars (10 Reviews)</div>
-    </div></li>
-
-
-      <li> <div class="product">
-        <img class="product-image" src="images/d1.jpg" alt="product" />
-        <div class="product-name">
-            <a href="product.html">Slim Shirt</a>
-        </div>
-        <div class="product-brand">Nike</div>
-        <div class="product-price">$60</div>
-        <div class="product-rating">4.5 Stars (10 Reviews)</div>
-      </div></li>
-    </ul>
-  </div>
-  </main>
-</div>
-
-  <footer>
-    &copy; 2023 Violet Cheetah
-  </footer>
-</body>
+    <footer>
+      &copy; 2023 Violet Cheetah
+    </footer>
+  </body>
 </div>
 <script>
   function openMenu() {
@@ -101,5 +111,5 @@
     document.querySelector(".sidebar").classList.remove("open");
   }
 </script>
-</html>
 
+</html>
