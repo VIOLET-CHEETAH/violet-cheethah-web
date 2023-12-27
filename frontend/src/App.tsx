@@ -9,6 +9,7 @@ import OrderDetail from './Orders/OrderDetail';
 import Payment from './Payment/Payment';
 
 function App() {
+
   const openMenu = () => {
     document.querySelector(".sidebar")?.classList.add("open");
   };
@@ -34,6 +35,7 @@ function App() {
               <Link to="/">Home</Link>
               <Link to="/catalog">Catalog</Link>
               <Link to="/orders">Orders</Link>
+              <Link to="/payment">Payment</Link>
 
             </div>
 
@@ -53,8 +55,6 @@ function App() {
                 </li>
               </ul>
             </aside>
-
-
 
 
             <main className="main">
