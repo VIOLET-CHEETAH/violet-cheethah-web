@@ -12,7 +12,9 @@ function App() {
   };
   
   return (
-    <div className="grid-container"></div>
+    <div className ="grid-container">
+        </div>
+    
   );
 }
 
